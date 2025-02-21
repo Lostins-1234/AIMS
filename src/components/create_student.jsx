@@ -60,7 +60,7 @@ const CreateStudent = () => {
     };
 
     try {
-      const response = await fetch(`http://localhost:${process.env.REACT_APP_BACKEND_PORT}/api/student/students`, {
+      const response = await fetch(`https://aims-fgev.onrender.com/api/student/students`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

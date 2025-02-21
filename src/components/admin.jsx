@@ -33,7 +33,7 @@ const Admin = () => {
       }
         const fetchAllStudents = async () => {
           try {
-            const response = await fetch(`http://localhost:${process.env.REACT_APP_BACKEND_PORT}/api/admin/students`); // Endpoint to fetch all students
+            const response = await fetch(`https://aims-fgev.onrender.com/api/admin/students`); // Endpoint to fetch all students
     
             if (!response.ok) {
               throw new Error(`HTTP error! Status: ${response.status}`);
