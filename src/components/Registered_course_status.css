@@ -1,0 +1,75 @@
+.ApproveTable {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  label {
+    margin-left: 8px;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  input[type='checkbox'] {
+    margin-right: 8px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-size: 14px;
+    background-color: #f9f9f9;
+  }
+  
+  table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  table th {
+    background-color: #f2f2f2;
+    color: #333;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  tr:hover {
+    background-color: #ddd;
+  }
+  
+  label {
+    font-size: 14px;
+  }
+  
+  input[type='checkbox'] {
+    cursor: pointer;
+  }
+
+  .drop-button {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .drop-button:hover {
+    background-color: #cc0000;
+  }
+  
+  .ApproveTable td:last-child {
+    text-align: center;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+  }
