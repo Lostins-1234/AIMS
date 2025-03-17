@@ -9,7 +9,7 @@ require('dotenv').config();
 
 const app = express();
 const PORT = process.env.BACKEND_PORT;
-app.use(cors());
+app.use(cors());// remove this and add that here
 app.use(bodyParser.json());
 
 // MongoDB Connection
